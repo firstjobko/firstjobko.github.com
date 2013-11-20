@@ -1,0 +1,91 @@
+body {
+	font-family: 'Ovo', serif;
+	font-size: 19px;
+	line-height: 1.325;
+}
+
+label, input, button {
+	font-family: 'Ovo', serif;
+	font-size: 22px;
+}
+
+button {
+	cursor: pointer;
+}
+
+p {
+	text-align: justify;
+}
+
+h1, h2 {
+	text-align: center;
+	color: #f00;
+	font-size: 28px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+form {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#main {
+	margin: 0 auto;
+	width: 500px;
+}
+
+#ask-details {
+	margin: 0 auto;
+}
+
+#schools, #more-info {
+	margin-top: 30px;
+	border-top: 1px solid #aaa;
+	font-size: 14px;
+	color: #555;
+}
+
+#more-info {
+	margin-top: 20px;
+}
+
+#schools div {
+	overflow: hidden;
+	width: 100%;
+}
+
+#schools img {
+	float: left;
+	width: 110px;
+	height: 110px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	filter: grayscale(35%); /* Current draft standard */
+	-webkit-filter: grayscale(35%); /* New WebKit */
+	-moz-filter: grayscale(35%);
+	-ms-filter: grayscale(35%); 
+	-o-filter: grayscale(35%);}
+
+#schools-bottom {
+	text-align: center;
+}
+
+#schools-bottom img {
+	margin-bottom: 0;
+	float: none;
+}
+
+.last {
+	margin-right: 0 !important;
+}
+
+#schools p, #more-info p {
+	text-align: center;
+}
