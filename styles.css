@@ -89,3 +89,7 @@ a {
 #schools p, #more-info p {
 	text-align: center;
 }
+
+#more-info {
+	font-size: 12px;
+}
